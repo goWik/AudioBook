@@ -12,6 +12,9 @@ function getParameterByName(name, url) {
 $(document).ready(function() {
   console.log("ready!");
   
+  
+  /*$('#showSpotifyIframe').atrr('src');*/
+  
 
   
   //använder Spoitfy API för att spela upp ljuböcker m.m
