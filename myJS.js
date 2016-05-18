@@ -22,16 +22,17 @@ function getParameterByName(name, url) {
   
    var par = getParameterByName("id");
    var spotifyURl = SpotifyURL(par);
+   
+//från Ratchet, kör func
+  window.addEventListener('push', SpotifyURL(par));
   
   $("#showSpotifyIframe").attr("src",spotifyURl);
   
-  //från Ratchet, kör func
-  window.addEventListener('push', function(){
-    var scriptsList = document.querySelectorAll('myJS.js');
-    });
+ 
+  
   
 //använder Spoitfy API för att spela upp ljuböcker m.m
-  //API ID för valda ljudblöker:
+  //API ID för valda ljudblöker
   var madicken = "6R8GNymg4ubeMld3oxHY0j";
   var ronja =  "6L25tlpmr1zmPNkc4n9XXh";
   var emil = "5PO5M3H7FRvXRu3N1lBdao";
