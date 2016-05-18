@@ -17,12 +17,15 @@ function getParameterByName(name, url) {
     return url;
   }
   
- var par = getParameterByName("id");
- var spotufyURl = SpotifyURL(par);
+
 
 
 $(document).ready(function() {
   console.log("ready!");
+  
+   var par = getParameterByName("id");
+   var spotufyURl = SpotifyURL(par);
+  
   $("#showSpotifyIframe").attr("src",spotufyURl);
   
   
