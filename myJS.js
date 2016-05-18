@@ -23,7 +23,7 @@ var par = getParameterByName("id");
 
 $(document).ready(function() {
   console.log("ready!");
-  $("#showSpotifyIframe").atrr("src",spotufyURl);
+  $("#showSpotifyIframe").attr("src",spotufyURl);
   
   
 
