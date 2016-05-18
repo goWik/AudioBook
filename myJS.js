@@ -13,7 +13,19 @@ $(document).ready(function() {
   console.log("ready!");
   
   
-  /*$('#showSpotifyIframe').atrr('src');*/
+  
+  function makeURLSpotify(id){
+    url = "https://embed.spotify.com/?uri=spotify%3Aalbum%" + id + "&theme=white"; 
+    return url;
+  }
+  
+    $.get(makeURLSpotify(getParameterByName("id")), function(data, textStatus, jqXHR) {
+      $('#showSpotifyIframe').atrr('src');
+  });
+
+  
+  
+
   
 
   
