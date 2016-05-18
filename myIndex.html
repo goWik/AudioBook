@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>Dina ljudböcker</title>
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<link href="css/ratchet.css" rel="stylesheet">
+<link rel="stylesheet" href = "mincss.css">
+<script src="http://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
+<script src="js/ratchet.js"></script>
+</head>
+<body>
+  <header class="bar bar-nav">
+    <h1 class="title">Dina ljudböcker</h1>
+  </header>
+  <div class="content">
+    <p class="content-padded">Välkommen till Sagovärlden. Följ med på fantasifulla och spännande äventyr. Upptäck den magiska världen tillsammans med dina favorit sagofigurer och karaktärer. Träffa nya vänner och bege dig på nya äventyr!</p>
+    <div class="card">
+      <ul class="table-view">
+        <li class="table-view-cell">
+        <p id ="authorM"></p>
+          <a class="navigate-right" href="page2.html?id=spotify:album:6R8GNymg4ubeMld3oxHY0j"  data-transition="slide-in">
+            <img class="push-right"  width="80"  id = "madicken" src="https://placehold.it/42x42">
+            </a>
+           <button id="btnM" class="btn">Visa info om boken från Libris</button>
+          <p id ="authorMLibris"></p>
+        </li>
+        <li class="table-view-cell">
+         <p id ="authorR"> </p>
+          <a class="navigate-right"  href="page3.html" data-transition="slide-in">
+          <img class="push-right"  width="80"  id = "ronja"   src="http://placehold.it/42x42">
+          </a>
+         <button class="btn" id="btnR">Visa info om boken från Libris</button>
+          <p id ="authorRLibris"></p>
+        </li>
+        <li class="table-view-cell">
+          <p id ="authorE"></p>
+          <a class="navigate-right"  href="page4.html" data-transition="slide-in">
+            <img class="push-rigth"  width="80"  id = "emil"   src="http://placehold.it/42x42">
+          </a>
+           <button id="btnE" class="btn">Visa info om boken från Libris</button>
+            <p id ="authorELibris"></p>
+        </li>
+         <li class="table-view-cell">
+          <p id ="authorL"></p>
+          <a class="navigate-right"  href="page5.html" data-transition="slide-in">
+            <img class="push-rigth"  width="80"  id = "lotta"   src="http://placehold.it/42x42">
+          </a>
+            <button id="btnL" class="btn">Visa info om boken från Libris</button>
+            <p id ="authorLLibris"></p>
+        </li>
+      </ul>
+    </div>
+    <div>
+    <input type="search"  id ="place" placeholder="sök efter en film">
+    <textarea  id = "textArea" rows="5"></textarea>
+    <button id = "btn-search" class="btn btn-positive btn-block">sök</button>
+    </div>
+  </div>
+</div>
+<script src="minjs.js"></script>
+</body>
+</html>
