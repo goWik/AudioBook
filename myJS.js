@@ -1,4 +1,6 @@
 
+//mina func.
+//http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript
 function getParameterByName(name, url) {
     if (!url) url = window.location.href;
     name = name.replace(/[\[\]]/g, "\\$&");
@@ -9,19 +11,25 @@ function getParameterByName(name, url) {
     return decodeURIComponent(results[2].replace(/\+/g, " "));
 }
 
+
+ function SpotifyURL(id){
+    var url = "https://embed.spotify.com/?uri=spotify%3Aalbum%" + id + "&theme=white";
+    return url;
+  }
+  
+var par = getParameterByName("id");
+ var spotufyURl = SpotifyURL(par);
+
+
 $(document).ready(function() {
   console.log("ready!");
-  
-   $('#showSpotifyIframe').atrr('src');
-  
-
+  $("#showSpotifyIframe").atrr("src",spotufyURl);
   
   
 
+   
   
-
-  
-  //använder Spoitfy API för att spela upp ljuböcker m.m
+//använder Spoitfy API för att spela upp ljuböcker m.m
   //API ID för valda ljudblöker:
   var madicken = "6R8GNymg4ubeMld3oxHY0j";
   var ronja =  "6L25tlpmr1zmPNkc4n9XXh";
