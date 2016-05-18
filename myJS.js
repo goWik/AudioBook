@@ -25,9 +25,10 @@ function getParameterByName(name, url) {
   
   $("#showSpotifyIframe").attr("src",spotifyURl);
   
-  //från Ratchet
-  window.addEventListener('push', SpotifyURL(par));
-   
+  //från Ratchet, kör func
+  window.addEventListener('push', function(){
+    var scriptsList = document.querySelectorAll('myJS.js');
+    });
   
 //använder Spoitfy API för att spela upp ljuböcker m.m
   //API ID för valda ljudblöker:
