@@ -1,0 +1,120 @@
+.title{
+  background-color:#31dfac;
+  color: white;
+  font-size: 20px;
+  font-weight:400;
+}
+
+#authorM, #authorR, #authorE, #authorL{
+  font-size: 14px;
+  font-weight: normal;
+  color: #4b2358;
+  margin-bottom: 5px;
+  font-weight: 500px;
+}
+
+#authorMLibris, #authorRLibris, #authorELibris, #authorLLibris{
+ font-size: 12px;
+ font-weight: 400;
+ color:black;
+}
+
+.myFrame{
+  margin-left: 10px;
+}
+
+.table-view{
+  background-color: #fefefe;
+}
+
+.content-padded{
+  color:black;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 400;
+}
+
+body{
+  font-family: "Avenir Next";
+  font-weight: lighter;
+}
+
+.content{
+  background-color:  #fdfdfd;
+}
+
+.tab-item, .bar{
+  color: white !important;
+  font-family: "Avenir Next";
+  background-color:#31dfac;
+  font-weight:400;
+}
+
+.icon{
+  color: white !important;
+}
+
+.btn-block{
+  width: 90% !important;
+  margin-left: 30px;
+}   
+
+.theme-white .main {
+  background-color: #31dfac !important;
+}
+.creator{
+  color: #ffffff;
+}
+h5{
+  color: #4b2358;
+  font-size: 14px;
+  font-weight: normal;
+  border-bottom: solid 1px #bbb; 
+}
+.btn{
+  font-size: 10px;
+  position: relative !important;
+  margin-left: 15px;
+  margin-top: 15px;
+  background-color: gold;
+  border: 1px solid gold;
+}
+
+
+#btn-search{
+  font-size: 15px;
+  position: relative !important;
+  margin-left: 15px;
+  margin-top: 15px;
+  background-color: #31dfac;
+  border: 1px solid #31dfac;
+  font-family: "Avenir Next";
+  margin-top: 0;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-weight: 400;
+  border-bottom: 20px;
+}
+
+.table-view-cell {
+   margin-bottom: 10px;
+}
+.table-view-cell p {
+    margin-bottom: 0;
+    color: #252121;
+}
+
+#place, #textArea{
+  width: 90% !important;
+  margin-left: 15px;
+  border-radius: 0px !important;
+  font-size: 12px;
+  font-family: "Avenir Next";
+  color: black;
+  font-weight: 400;
+}
+
+.myContainer {
+  margin-left: 8%;
+  margin-right: auto;
+}
