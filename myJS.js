@@ -17,19 +17,16 @@ function getParameterByName(name, url) {
     return url;
   }
   
-
-
-
-$(document).ready(function() {
+  $(document).ready(function() {
   console.log("ready!");
   
    var par = getParameterByName("id");
-   var spotufyURl = SpotifyURL(par);
+   var spotifyURl = SpotifyURL(par);
   
-  $("#showSpotifyIframe").attr("src",spotufyURl);
+  $("#showSpotifyIframe").attr("src",spotifyURl);
   
-  
-
+  //från Ratchet
+  window.addEventListener('push', SpotifyURL(par));
    
   
 //använder Spoitfy API för att spela upp ljuböcker m.m
