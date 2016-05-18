@@ -26,7 +26,7 @@ function getParameterByName(name, url) {
   //från Ratchet, kör func
   window.addEventListener('push', function () {
       console.log("test!");
-  }
+
   }
   
   )
