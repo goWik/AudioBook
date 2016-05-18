@@ -13,11 +13,11 @@ function getParameterByName(name, url) {
 
 
  function SpotifyURL(id){
-    var url = "https://embed.spotify.com/?uri=spotify%3Aalbum%" + id + "&theme=white";
+    var url = "https://embed.spotify.com/?uri=" + id + "&theme=white";
     return url;
   }
   
-var par = getParameterByName("id");
+ var par = getParameterByName("id");
  var spotufyURl = SpotifyURL(par);
 
 
