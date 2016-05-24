@@ -31,8 +31,6 @@ function getParameterByName(name, url) {
   })
   
   
-/*  $("#showSpotifyIframe").attr("src",spotifyURl);*/
-  
   //använder Spoitfy API för att spela upp ljuböcker m.m
   //API ID för valda ljudblöker
   var madicken = "6R8GNymg4ubeMld3oxHY0j";
