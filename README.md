@@ -8,4 +8,4 @@ För att köra klicka på denna länk: [**_Audio Book_**] (gowik.github.io/Audio
 
 För att se info om valda böcker från [Libris API](http://librishelp.libris.kb.se/help/xsearch_swe.jsp?open=tech) samt att söka på olika filmer i [OMDB API] (http://omdbapi.com/) krävs ingen inloggning.
 
-I webb appen har [Ramverket Ratchet](http://goratchet.com/) implementerats som vidare formeterades och kombinerades med egen CSS.
+I webb appen har [Ramverket Ratchet](http://goratchet.com/) implementerats som vidare formeterades och kombinerades med egen CSS. 
